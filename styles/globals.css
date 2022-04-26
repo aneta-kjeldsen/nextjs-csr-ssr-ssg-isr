@@ -11,9 +11,25 @@ body {
   box-sizing: border-box;
 }
 
+h1, h2 {
+  margin: 8px 0;
+}
 h1 {
   font-size: 36px;
   line-height: 60px;
+}
+
+nav {
+  padding: 72px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #CC82A4;
+}
+a:hover {
+  text-decoration: underline;
+  color: #6D3C65;
 }
 
 main {
