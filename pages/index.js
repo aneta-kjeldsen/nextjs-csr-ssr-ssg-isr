@@ -18,10 +18,7 @@ export default function Home() {
           <a href="./csr">Client Side Rendering</a>&nbsp;|&nbsp;
           <a href="./ssr">Server Side Render</a>&nbsp;|&nbsp;
           <a href="./ssg">Static Site Generation</a>&nbsp;|&nbsp;
-          <a href="./isr">Incremental Static Regeneration</a>&nbsp;|&nbsp;
-          <a href="./isr-on-demand">
-            Incremental Static Regeneration on Demand
-          </a>
+          <a href="./isr">Incremental Static Regeneration</a>
         </nav>
       </main>
     </div>
