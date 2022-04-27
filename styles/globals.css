@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Tahoma, sans-serif;
-  background-color: #f7f7f7;
+  font-family: Raleway, sans-serif;
+  background-color: #fceff5;
   color: #141414;
 }
 
@@ -25,11 +27,11 @@ nav {
 
 a {
   text-decoration: none;
-  color: #CC82A4;
+  color: #6d3c65;
 }
 a:hover {
   text-decoration: underline;
-  color: #6D3C65;
+  color: #cc82a4;
 }
 
 main {
