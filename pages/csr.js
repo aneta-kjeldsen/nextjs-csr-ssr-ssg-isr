@@ -5,12 +5,11 @@ import Loading from "@components/Loading";
 import { getTodos } from "./api";
 
 export default function ClientSideRendered() {
-  const [state, setState] = useState([]);
+  const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   async function getData() {
-    const data = await getTodos();
-    setState(data);
+    setData(await getTodos());
     setIsLoading(false);
   }
 
@@ -21,8 +20,9 @@ export default function ClientSideRendered() {
   return (
     <main>
       <h1>CSR - Client Side Render</h1>
+      <h3>My TODO list:</h3>
       {isLoading && <Loading />}
-      {state.map((item) => (
+      {data.map((item) => (
         <Todo key={item.id} item={item}></Todo>
       ))}
     </main>

@@ -11,7 +11,7 @@ export default function Loading() {
           stroke-width="5"
         ></circle>
       </svg>
-      <span>LOADING...</span>
+      <span>LOADING</span>
     </div>
   );
 }

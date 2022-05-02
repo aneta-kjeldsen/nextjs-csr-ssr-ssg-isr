@@ -7,6 +7,7 @@ export default function StaticSiteGeneration({ data, isLoading = true }) {
   return (
     <main>
       <h1>SSG - Static Site Generation</h1>
+      <h3>My TODO list:</h3>
       {isLoading && <Loading />}
       {data.map((item) => (
         <Todo key={item.id} item={item}></Todo>

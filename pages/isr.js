@@ -10,6 +10,7 @@ export default function IncrementalStaticRegeneration({
   return (
     <main>
       <h1>ISR - Incremental Static Regeneration</h1>
+      <h3>My TODO list:</h3>
       {isLoading && <Loading />}
       {data.map((item) => (
         <Todo key={item.id} item={item}></Todo>
