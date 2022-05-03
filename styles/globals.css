@@ -8,6 +8,10 @@ body {
   background-color: #fceff5;
   color: #141414;
 }
+#__next {
+  width: 500px;
+  margin: 50px auto;
+}
 
 * {
   box-sizing: border-box;
@@ -40,7 +44,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .container {
