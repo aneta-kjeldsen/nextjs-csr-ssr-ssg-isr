@@ -8,10 +8,6 @@ body {
   background-color: #fceff5;
   color: #141414;
 }
-#__next {
-  width: 500px;
-  margin: 50px auto;
-}
 
 * {
   box-sizing: border-box;
@@ -45,6 +41,15 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 500px;
+  margin: 50px auto;
+}
+main.full-width {
+  width: 100%;
+  margin: 50px;
+}
+main.center {
+  align-items: center;
 }
 
 .container {

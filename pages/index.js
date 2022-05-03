@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main class="full-width center">
         <h1>CSR, SSR, SSG & ISR</h1>
         <h2>Weird and scary acronyms explained!</h2>
         <nav>
